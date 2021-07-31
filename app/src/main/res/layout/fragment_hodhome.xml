@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".HOD.HODHomeActivity"
+            android:padding="20dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lecture Instance"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnOrderPreserved="false"
+                android:alignmentMode="alignMargins"
+                android:rowCount="3"
+                android:columnCount="1"
+                android:layout_marginTop="10dp"
+                >
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp"
+                    app:cardBackgroundColor="#4CAF50"
+                    android:id="@+id/jcCollege">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:padding="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:background="@drawable/jclecture"
+                        android:id="@+id/jcTLinear">
+                        <TextView
+                            android:id="@+id/junior"
+                            android:layout_marginTop="20dp"
+                            android:textColor="#ffffff"
+                            android:textSize="28sp"
+                            android:textStyle="bold"
+                            android:text="Junior College"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp"
+                    app:cardBackgroundColor="#4CAF50"
+                    android:id="@+id/ugCollege">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:padding="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:background="@drawable/uglecture"
+                        android:id="@+id/ugTLinear">
+                        <TextView
+                            android:id="@+id/under"
+                            android:layout_marginTop="20dp"
+                            android:textColor="#000000"
+                            android:textSize="28sp"
+                            android:textStyle="bold"
+                            android:text="Under Graduation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp"
+                    app:cardBackgroundColor="#4CAF50"
+                    android:id="@+id/pgCollege">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:padding="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:background="@drawable/pglecture"
+                        android:id="@+id/pgTLinear">
+                        <TextView
+                            android:id="@+id/post"
+                            android:layout_marginTop="20dp"
+                            android:textColor="#05115C"
+                            android:textSize="28sp"
+                            android:textStyle="bold"
+                            android:text="Post Graduation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+
+            <!--            <Button-->
+            <!--                android:id="@+id/jcCollege"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Junior College"-->
+            <!--                android:layout_marginTop="100dp"-->
+            <!--                android:textAllCaps="false"-->
+            <!--                android:textSize="20dp"-->
+            <!--                android:background="#6E9EEC"-->
+            <!--                />-->
+
+            <!--            <Button-->
+            <!--                android:id="@+id/ugCollege"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Under Graduate"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:textAllCaps="false"-->
+            <!--                android:textSize="20dp"-->
+            <!--                android:background="#6E9EEC"-->
+            <!--                />-->
+            <!--            <Button-->
+            <!--                android:id="@+id/pgCollege"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Post Graduate"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:textAllCaps="false"-->
+            <!--                android:textSize="20dp"-->
+            <!--                android:background="#6E9EEC"-->
+            <!--                />-->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

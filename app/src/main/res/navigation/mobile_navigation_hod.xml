@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/moblie_navigation_hod"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_hodhome">
+
+    <!--HOD Navigation-->
+    <fragment
+        android:id="@+id/nav_hodhome"
+        android:name="com.example.attendancetracker.ui.hodhome.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_hodhome" />
+
+    <fragment
+        android:id="@+id/nav_hod_lecture_details"
+        android:name="com.example.attendancetracker.ui.hodlecturedetails.HODLectureDetailsFragment"
+        android:label="Lecture Details"
+        tools:layout="@layout/fragment_h_o_d_lecture_details" />
+
+    <fragment
+        android:id="@+id/nav_hoddetails"
+        android:name="com.example.attendancetracker.ui.hoddetails.HODDetailsFragment"
+        android:label="Add Details"
+        tools:layout="@layout/fragment_hoddetails" />
+
+    <fragment
+        android:id="@+id/nav_hodprofile"
+        android:name="com.example.attendancetracker.ui.hodprofile.HODProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_hodprofile" />
+
+
+    <fragment
+        android:id="@+id/nav_hodchangepasswd"
+        android:name="com.example.attendancetracker.ui.hodchangepassword.HODChangePasswdFragment"
+        android:label="Change Password"
+        tools:layout="@layout/fragment_hodchangepassword" />
+
+    <fragment
+        android:id="@+id/nav_hodlogout"
+        android:name="com.example.attendancetracker.ui.hodlogout.HODLogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_hodlogout" />
+
+</navigation>

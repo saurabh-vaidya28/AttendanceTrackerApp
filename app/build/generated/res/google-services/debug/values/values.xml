@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">109075406329-6ngnbd816uot6g4umopugqvrktv2n4fk.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://attendancetracker-1e1c4.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">109075406329</string>
+    <string name="google_api_key" translatable="false">AIzaSyDTbN3xllyXqvXbFybXgEeMxr3DFXdS4Jo</string>
+    <string name="google_app_id" translatable="false">1:109075406329:android:3ce9d5e8601d16e5ff7128</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDTbN3xllyXqvXbFybXgEeMxr3DFXdS4Jo</string>
+    <string name="google_storage_bucket" translatable="false">attendancetracker-1e1c4.appspot.com</string>
+    <string name="project_id" translatable="false">attendancetracker-1e1c4</string>
+</resources>

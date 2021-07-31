@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.attendancetracker">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.teacherlecturedetails.TeacherPostLectureDetailsActivity"/>
+        <activity android:name=".ui.teacherlecturedetails.TeacherUnderLectureDetailsActivity" />
+        <activity android:name=".ui.teacherlecturedetails.TeacherJuniorLectureDetailsActivity" />
+        <activity android:name=".ui.hodlecturedetails.hodPostLectureDetailsActivty" />
+        <activity android:name=".ui.hodlecturedetails.hodUnderLectureDetailsActvity" />
+        <activity android:name=".ui.hodlecturedetails.hodJuniorLectureDetailsActivity" />
+        <activity android:name=".ui.hodprofile.UpdateProfileHODActivity" />
+        <activity android:name=".ui.teacherprofile.UpdateProfileActivity" />
+        <activity android:name=".admin.TeacherAdmin.pgdspT" />
+        <activity android:name=".admin.TeacherAdmin.ugdspT" />
+        <activity android:name=".admin.TeacherAdmin.judspT" />
+        <activity android:name=".admin.StudentAdmin.ugdsp" />
+        <activity android:name=".admin.StudentAdmin.pgdsp" />
+        <activity android:name=".admin.StudentAdmin.judsp" />
+        <activity android:name=".admin.AdminActivity" />
+        <activity
+            android:name=".Teacher.PostGraduate1"
+            android:parentActivityName=".Teacher.TeacherHomeActivity" />
+        <activity
+            android:name=".Teacher.UnderGraduate1"
+            android:parentActivityName=".Teacher.TeacherHomeActivity" />
+        <activity
+            android:name=".Teacher.JuniorCollege1"
+            android:parentActivityName=".Teacher.TeacherHomeActivity" />
+        <activity android:name=".Student.ScanActivity" />
+        <activity
+            android:name=".Student.TrackAttendnce.TrackAttendanceActivity"
+            android:parentActivityName=".Student.StudentHomeActivity" />
+        <activity
+            android:name=".HOD.postGraduateLectureHOD"
+            android:parentActivityName=".HOD.HODHomeActivity" />
+        <activity
+            android:name=".HOD.underGraduateLectureHOD"
+            android:parentActivityName=".HOD.HODHomeActivity" />
+        <activity
+            android:name=".HOD.juniorCollegeLectureHOD"
+            android:parentActivityName=".HOD.HODHomeActivity" />
+        <activity
+            android:name=".HOD.HODHomeActivity"
+            android:label="@string/title_activity_hodhome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.base.BaseActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Student.MarkAttendanceActivity"
+            android:label="@string/title_activity_maps_mark"
+            android:parentActivityName=".Student.StudentHomeActivity" />
+        <activity android:name=".admin.TeacherAdmin.AdminTeacherDashboard" />
+        <activity
+            android:name=".admin.TeacherAdmin.pgTeacher"
+            android:parentActivityName=".admin.TeacherAdmin.AdminTeacherDashboard" />
+        <activity
+            android:name=".admin.TeacherAdmin.ugTeacher"
+            android:parentActivityName=".admin.TeacherAdmin.AdminTeacherDashboard" />
+        <activity
+            android:name=".admin.TeacherAdmin.juniorTeacher"
+            android:parentActivityName=".admin.TeacherAdmin.AdminTeacherDashboard" />
+        <activity
+            android:name=".admin.StudentAdmin.AdminStudentDashboard"
+            android:parentActivityName=".admin.AdminActivity" />
+        <activity
+            android:name=".admin.StudentAdmin.p_department"
+            android:parentActivityName=".admin.StudentAdmin.AdminStudentDashboard" />
+        <activity
+            android:name=".admin.StudentAdmin.ug_department"
+            android:parentActivityName=".admin.StudentAdmin.AdminStudentDashboard" />
+        <activity
+            android:name=".admin.StudentAdmin.j_department"
+            android:parentActivityName=".admin.StudentAdmin.AdminStudentDashboard" />
+        <activity
+            android:name=".Teacher.TeacherHomeActivity"
+            android:label="@string/title_activity_teacher_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Student.StudentHomeActivity"
+            android:label="@string/title_activity_student_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teacher.postGraduateLecture"
+            android:parentActivityName=".Teacher.TeacherHomeActivity" />
+        <activity
+            android:name=".Teacher.underGraduateLecture"
+            android:parentActivityName=".Teacher.TeacherHomeActivity" />
+        <activity
+            android:name=".Teacher.juniorCollegeLecture"
+            android:parentActivityName=".Teacher.TeacherHomeActivity" />
+        <activity
+            android:name=".StartScreen_mainactivity.RegistrationActivity"
+            android:parentActivityName=".StartScreen_mainactivity.MainActivity" />
+        <activity
+            android:name=".StartScreen_mainactivity.ForgotPasswordActivity"
+            android:parentActivityName=".StartScreen_mainactivity.MainActivity" />
+        <activity android:name=".ParentHome.parent_home" />
+        <activity
+            android:name=".ParentHome.ParentTrackActivity"
+            android:label="Track Attendance"
+            android:parentActivityName=".ParentHome.parent_home" />
+        <activity
+            android:name=".ParentHome.ParentDetailsActivity"
+            android:label="Add Details"
+            android:parentActivityName=".ParentHome.parent_home" />
+        <activity
+            android:name=".ParentHome.ParentProfileActivity"
+            android:label="Profile"
+            android:parentActivityName=".ParentHome.parent_home" />
+        <activity android:name=".HOD.hod_home" />
+        <activity android:name=".StartScreen_mainactivity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

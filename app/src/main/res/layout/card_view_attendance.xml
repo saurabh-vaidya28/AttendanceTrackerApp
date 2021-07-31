@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="#A21700"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: "
+                tools:text="Date: "
+                android:textSize="21sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dateT"
+            tools:text="Date"
+            android:textSize="21sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: "
+                tools:text="Time: "
+                android:textSize="18sp"
+                android:textColor="#D38EFF"
+                />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeT"
+            tools:text="Time"
+            android:textSize="18sp"
+            android:textColor="#D38EFF"
+            android:layout_marginLeft="10dp"
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:text="Lecture: "
+            tools:text="Lecture: "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lec_detailsT"
+            android:textSize="18sp"
+            android:textColor="#CDF883"
+            tools:text="Lec_Details"
+            />
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:id="@+id/hr1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#059177"></TableRow>
+    </LinearLayout>
+
+</LinearLayout>

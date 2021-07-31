@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:weightSum="2"
+    android:background="#F3FFE5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:background="#6A1102"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lecture: "
+                tools:text="Lecture: "
+                android:textSize="21sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/noL"
+                tools:text="No."
+                android:textSize="21sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: "
+                tools:text="Date: "
+                android:textSize="19sp"
+                android:textColor="#049882"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dateL"
+                tools:text="Date"
+                android:textSize="18sp"
+                android:textColor="#049882"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: "
+                tools:text="Time: "
+                android:textSize="18sp"
+                android:textColor="#8C51B1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/timeL"
+                tools:text="Time"
+                android:textSize="18sp"
+                android:textColor="#8C51B1"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Department: "
+                tools:text="Department: "
+                android:textSize="17sp"
+                android:textColor="#A0002A"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/deptL"
+                tools:text="Department"
+                android:textSize="17sp"
+                android:textColor="#A0002A"
+                android:layout_marginLeft="2dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year: "
+                tools:text="Year: "
+                android:textSize="17sp"
+                android:textColor="#3A022A"
+                android:layout_marginLeft="42dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/yearL"
+                tools:text="Year"
+                android:textSize="17sp"
+                android:textColor="#41002E"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#1D6122"
+            android:text="Subject: "
+            tools:text="Subject: "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/subjectL"
+            android:textSize="17sp"
+            android:textColor="#354514"
+            tools:text="Subject: "
+            />
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:id="@+id/hr1"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#049882"></TableRow>
+    </LinearLayout>
+
+</LinearLayout>

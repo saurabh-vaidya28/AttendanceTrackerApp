@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#CEDCEA"
+    >
+
+<TextView
+    android:id="@+id/set_empCode_hod"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:text=""
+    android:textSize="18sp"
+    android:textColor="#000000"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.106" />
+
+<TextView
+    android:id="@+id/set_name_hod"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="18sp"
+    android:textColor="#000000"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.05"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.193"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"/>
+
+
+<TextView
+    android:id="@+id/set_email_hod"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="18sp"
+    android:textColor="#000000"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.05"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.193"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"/>
+
+<TextView
+    android:id="@+id/set_phone_hod"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="18sp"
+    android:textColor="#000000"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.05"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.193"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"/>
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Update"
+    android:textAllCaps="false"
+    android:textSize="19sp"
+    android:textColor="#ffffff"
+    android:background="@drawable/button_rounded"
+    android:layout_marginTop="20dp"
+    android:id="@+id/updateDet_HOD"
+    />
+
+</LinearLayout>

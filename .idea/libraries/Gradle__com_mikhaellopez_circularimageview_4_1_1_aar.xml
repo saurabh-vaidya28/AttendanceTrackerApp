@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mikhaellopez:circularimageview:4.1.1@aar">
+    <CLASSES>
+      <root url="file://$APPLICATION_HOME_DIR$/gradle/gradle-6.1.1/caches/transforms-2/files-2.1/2ae60f5e212151228d4a8bbccd34a9cb/jetified-circularimageview-4.1.1/AndroidManifest.xml" />
+      <root url="jar://$APPLICATION_HOME_DIR$/gradle/gradle-6.1.1/caches/transforms-2/files-2.1/2ae60f5e212151228d4a8bbccd34a9cb/jetified-circularimageview-4.1.1/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/gradle/gradle-6.1.1/caches/transforms-2/files-2.1/2ae60f5e212151228d4a8bbccd34a9cb/jetified-circularimageview-4.1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1e77accda3e21609c9e8e3df341be49d/transformed/jetified-circularimageview-4.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1e77accda3e21609c9e8e3df341be49d/transformed/jetified-circularimageview-4.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1e77accda3e21609c9e8e3df341be49d/transformed/jetified-circularimageview-4.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$APPLICATION_HOME_DIR$/gradle/gradle-6.1.1/caches/modules-2/files-2.1/com.mikhaellopez/circularimageview/4.1.1/3a4ef9722db621c2ce2c2b7101442c077f56e02d/circularimageview-4.1.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikhaellopez/circularimageview/4.1.1/3a4ef9722db621c2ce2c2b7101442c077f56e02d/circularimageview-4.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

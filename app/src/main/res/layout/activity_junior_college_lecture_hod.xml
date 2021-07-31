@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HOD.juniorCollegeLectureHOD"
+    android:background="@drawable/lec_ins_back_2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            android:padding="20dp"
+            >
+            <ProgressBar android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                style="?android:attr/progressBarStyle"
+                android:visibility="gone"
+                android:layout_gravity="end"
+                android:id="@+id/progressBarJCHOD"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee ID"
+                android:textColor="#430101"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/lec_hodID_jc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="21sp"
+                android:textColor="#430101"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teacher's Name"
+                android:textColor="#430101"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/lec_hodName_jc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="21sp"
+                android:textColor="#430101"
+                />
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="6"
+                android:id="@+id/gridLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Stream:"
+                    android:id="@+id/dept"
+                    android:textColor="#430101"/>
+
+                <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                    android:id="@+id/stream"
+                    android:layout_width="220dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Year:"
+                    android:textColor="#430101"/>
+
+                <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                    android:id="@+id/year"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sub Code/Name:"
+                    android:textColor="#430101"/>
+
+                <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                    android:id="@+id/subCodeName"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp" />
+
+
+            </GridLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Division:"
+                    android:textSize="20sp"
+                    android:textColor="#430101"
+
+                    />
+
+                <RadioGroup
+                    android:id="@+id/div"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:layout_marginLeft="0dp"
+                        android:textColor="#430101"
+                        android:onClick="checkButtonDivision"/>
+
+                    <RadioButton
+                        android:id="@+id/b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#430101"
+                        android:onClick="checkButtonDivision"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#430101"
+                        android:onClick="checkButtonDivision"/>
+
+                    <RadioButton
+                        android:id="@+id/d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="D"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#430101"
+                        android:onClick="checkButtonDivision"
+                        />
+
+                </RadioGroup>
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/generate"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="Generate QRcode"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_rounded"
+                android:textColor="#ffffff"/>
+
+            <ImageView
+                android:id="@+id/qrCode"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

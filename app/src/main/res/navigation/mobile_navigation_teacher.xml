@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_teacherhome">
+
+    <!--Teacher Navigation-->
+    <fragment
+        android:id="@+id/nav_teacherhome"
+        android:name="com.example.attendancetracker.ui.teacherhome.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_teacherhome" />
+
+    <fragment
+        android:id="@+id/nav_teacher_lecture_details"
+        android:name="com.example.attendancetracker.ui.teacherlecturedetails.TeacherLectureDetailsFragment"
+        android:label="Lecture Details"
+        tools:layout="@layout/fragment_teacherlecturedetails" />
+
+
+    <fragment
+        android:id="@+id/nav_teacherdetails"
+        android:name="com.example.attendancetracker.ui.teacherdetails.TeacherDetailsFragment"
+        android:label="Add Details"
+        tools:layout="@layout/fragment_teacherdetails" />
+
+    <fragment
+        android:id="@+id/nav_teacherprofile"
+        android:name="com.example.attendancetracker.ui.teacherprofile.TeacherProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_teacherprofile" />
+
+
+    <fragment
+        android:id="@+id/nav_teacherchangepasswd"
+        android:name="com.example.attendancetracker.ui.teacherchangepassword.TeacherChangePasswdFragment"
+        android:label="Change Password"
+        tools:layout="@layout/fragment_teacherchangepassword" />
+
+    <fragment
+        android:id="@+id/nav_teacherlogout"
+        android:name="com.example.attendancetracker.ui.teacherlogout.TeacherLogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_teacherlogout" />
+
+</navigation>

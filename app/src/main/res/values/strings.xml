@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">Attendance Tracker</string>
+    <string name="title_activity_student_h">student_h</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Attendance Tracker</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_teacherhome">teacherhome</string>
+
+    <string-array name="College">
+        <item>Junior</item>
+        <item>Under Graduate</item>
+        <item>Post Graduate</item>
+    </string-array>
+
+    <!--   Searchable Spinner for junior college-->
+    <string-array name="Stream">
+        <item>Arts</item>
+        <item>Commerce</item>
+        <item>Science</item>
+    </string-array>
+
+    <!--   Searchable Spinner for year-->
+    <string-array name="Year">
+        <item>FYJC</item>
+        <item>SYJC</item>
+    </string-array>
+
+    <!--   Searchable Spinner for under graduate-->
+    <string-array name="UnderGraduate">
+        <item>BCom</item>
+        <item>BA</item>
+        <item>BSC</item>
+        <item>BBI</item>
+        <item>BAF</item>
+        <item>BMS</item>
+        <item>BMM</item>
+        <item>BSc-IT</item>
+        <item>BVoc-SD</item>
+        <item>BVoc-TT</item>
+    </string-array>
+
+    <!--    Searchable spinner for semester-->
+    <string-array name="SemesterUG">
+        <item>Sem-1</item>
+        <item>Sem-2</item>
+        <item>Sem-3</item>
+        <item>Sem-4</item>
+        <item>Sem-5</item>
+        <item>Sem-6</item>
+    </string-array>
+
+    <!--   Searchable Spinner for post graduate-->
+    <string-array name="PostGraduate">
+        <item>MCom</item>
+        <item>MSc-Chemistry</item>
+    </string-array>
+
+    <!--    Searchable spinner for semester-->
+    <string-array name="SemesterPG">
+        <item>Sem-1</item>
+        <item>Sem-2</item>
+        <item>Sem-3</item>
+        <item>Sem-4</item>
+    </string-array>
+
+
+    <!--    Spinner for junior college-->
+    <string-array name="junior">
+        <item>-----Select Stream-----</item>
+        <item>Arts</item>
+        <item>Commerce</item>
+        <item>Science</item>
+    </string-array>
+
+    <!--    Radio Button for year-->
+    <integer-array name="jc">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+    <!--    Radio Button for division-->
+    <integer-array name="div">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+
+    <!--    Spinner for under graduate-->
+    <string-array name="underGraduate">
+        <item>--Select Department--</item>
+        <item>BCom</item>
+        <item>BA</item>
+        <item>BSc</item>
+        <item>BBI</item>
+        <item>BAF</item>
+        <item>BFM</item>
+        <item>BMS</item>
+        <item>BMM</item>
+        <item>BSc-IT</item>
+        <item>BVoc-SD</item>
+        <item>BVoc-TT</item>
+    </string-array>
+
+    <!--    Radio Button for under graduate year-->
+    <integer-array name="ugYear">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <!--    Radio Button for semester-->
+    <integer-array name="ugSem">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+
+    <!--    Spinner for post graduate-->
+    <string-array name="postGraduate">
+        <item>--Select Department--</item>
+        <item>MCom</item>
+        <item>MSc-Chemistry</item>
+        <item>MSc-Research Chemistry</item>
+    </string-array>
+
+    <!--    Radio Button for year-->
+    <integer-array name="pgYear">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+    <!--    Radio Button for semester-->
+    <integer-array name="pgSem">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string name="title_activity_student_home">student_home</string>
+    <string name="title_activity_teacher_home">teacher_home</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps__mark_attendance">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_mark">Map</string>
+    <string name="title_activity_hodhome">HODHomeActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

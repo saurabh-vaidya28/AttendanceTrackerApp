@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEDCEA"
+    tools:context=".ui.teacherprofile.UpdateProfileActivity"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/t_progressU"
+                android:layout_gravity="end"
+                android:visibility="gone"
+                style="?android:attr/progressBarStyle"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@color/colorPrimaryDark"
+                >
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/user"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#555555"
+                    />
+            </RelativeLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/t_IDU"
+                    android:hint="Enter Employee ID"
+                    android:textSize="19sp"
+                    android:inputType="number"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/t_nameU"
+                    android:hint="Enter Name"
+                    android:textSize="19sp"
+                    android:inputType="textCapCharacters"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/t_phoneU"
+                    android:hint="Enter Phone no."
+                    android:textSize="19sp"
+                    android:inputType="phone"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="6"
+                android:id="@+id/gridLayout">
+
+                <TextView
+                    android:id="@+id/clgU"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="College:"
+                    android:textSize="19sp"/>
+
+                <TextView
+                    android:id="@+id/collegeU"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="19sp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="19sp"
+                    android:layout_marginTop="20dp"
+                    android:text="Department:"
+                    android:id="@+id/dept"/>
+
+                <TextView
+                    android:id="@+id/departmentU"
+                    android:layout_width="220dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="19sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="19sp"
+                    android:layout_marginTop="20dp"
+                    android:text="Year:" />
+
+                <TextView
+                    android:id="@+id/yearU"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="19sp"/>
+            </GridLayout>
+
+            <Button
+                android:id="@+id/t_saveU"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="false"
+                android:text="Update"
+                android:textSize="19sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_rounded"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

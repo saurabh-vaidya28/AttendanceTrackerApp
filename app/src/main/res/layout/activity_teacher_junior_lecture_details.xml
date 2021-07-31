@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#F3FFE5"
+tools:context=".ui.teacherlecturedetails.TeacherJuniorLectureDetailsActivity">
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/junior_lectureTeacher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:padding="20dp" />
+
+<RelativeLayout
+    android:id="@+id/junior_empty_viewTeacher"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+
+    <TextView
+        android:id="@+id/junior_no_reminder_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="No attendance done"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
+
+</LinearLayout>

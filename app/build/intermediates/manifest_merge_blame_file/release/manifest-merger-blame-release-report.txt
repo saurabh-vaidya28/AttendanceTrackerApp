@@ -1,0 +1,591 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.attendancetracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:10:22-76
+16    <!--
+17         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+18         Google Maps Android API v2, but you must specify either coarse or fine
+19         location permissions for the 'MyLocation' functionality.
+20    -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:16:5-79
+21-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:16:22-76
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:17:5-67
+22-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:17:22-64
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:18:5-65
+23-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:18:22-62
+24
+25    <uses-feature android:name="android.hardware.camera" />
+25-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:20:5-60
+25-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:20:19-57
+26    <uses-feature android:name="android.hardware.camera.autofocus" />
+26-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:21:5-70
+26-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:21:19-67
+27
+28    <uses-permission android:name="android.permission.CAMERA" />
+28-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:18:5-65
+28-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:18:22-62
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:24:5-66
+29-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:24:22-63
+30    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+30-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:25:5-81
+30-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:25:22-78
+31
+32    <uses-feature
+32-->[com.google.android.gms:play-services-maps:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\7dfc471bb7895bd3179d625100b7218f\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+33        android:glEsVersion="0x00020000"
+33-->[com.google.android.gms:play-services-maps:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\7dfc471bb7895bd3179d625100b7218f\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+34        android:required="true" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+34-->[com.google.android.gms:play-services-maps:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\7dfc471bb7895bd3179d625100b7218f\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+35    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+35-->[com.google.android.gms:play-services-gcm:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\00b4e2598ed35e8748d199e5682c7140\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:23:5-82
+35-->[com.google.android.gms:play-services-gcm:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\00b4e2598ed35e8748d199e5682c7140\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:23:22-79
+36
+37    <uses-feature
+37-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:27:5-29:36
+38        android:name="android.hardware.camera.front"
+38-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:28:9-53
+39        android:required="false" />
+39-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:29:9-33
+40    <uses-feature
+40-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:35:5-37:36
+41        android:name="android.hardware.camera.flash"
+41-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:36:9-53
+42        android:required="false" />
+42-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:37:9-33
+43    <uses-feature
+43-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:38:5-40:36
+44        android:name="android.hardware.screen.landscape"
+44-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:39:9-57
+45        android:required="false" />
+45-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:40:9-33
+46    <uses-feature
+46-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:41:5-43:36
+47        android:name="android.hardware.wifi"
+47-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:42:9-45
+48        android:required="false" />
+48-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:43:9-33
+49
+50    <uses-permission android:name="android.permission.WAKE_LOCK" />
+50-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:25:5-68
+50-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:25:22-65
+51    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+51-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+51-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+52
+53    <application
+53-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:27:5-159:19
+54        android:allowBackup="true"
+54-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:28:9-35
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\e5357b0b880d2be0ed83398576c19d42\core-1.2.0\AndroidManifest.xml:24:18-86
+56        android:extractNativeLibs="false"
+57        android:icon="@mipmap/ic_launcher"
+57-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:29:9-43
+58        android:label="@string/app_name"
+58-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:30:9-41
+59        android:roundIcon="@mipmap/ic_launcher_round"
+59-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:31:9-54
+60        android:supportsRtl="true"
+60-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:32:9-35
+61        android:testOnly="true"
+62        android:theme="@style/AppTheme" >
+62-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:33:9-40
+63        <activity android:name="com.example.attendancetracker.ui.teacherlecturedetails.TeacherPostLectureDetailsActivity" />
+63-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:35:9-105
+63-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:35:19-93
+64        <activity android:name="com.example.attendancetracker.ui.teacherlecturedetails.TeacherUnderLectureDetailsActivity" />
+64-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:36:9-97
+64-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:36:19-94
+65        <activity android:name="com.example.attendancetracker.ui.teacherlecturedetails.TeacherJuniorLectureDetailsActivity" />
+65-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:37:9-98
+65-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:37:19-95
+66        <activity android:name="com.example.attendancetracker.ui.hodlecturedetails.hodPostLectureDetailsActivty" />
+66-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:38:9-87
+66-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:38:19-84
+67        <activity android:name="com.example.attendancetracker.ui.hodlecturedetails.hodUnderLectureDetailsActvity" />
+67-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:39:9-88
+67-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:39:19-85
+68        <activity android:name="com.example.attendancetracker.ui.hodlecturedetails.hodJuniorLectureDetailsActivity" />
+68-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:40:9-90
+68-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:40:19-87
+69        <activity android:name="com.example.attendancetracker.ui.hodprofile.UpdateProfileHODActivity" />
+69-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:41:9-76
+69-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:41:19-73
+70        <activity android:name="com.example.attendancetracker.ui.teacherprofile.UpdateProfileActivity" />
+70-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:42:9-77
+70-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:42:19-74
+71        <activity android:name="com.example.attendancetracker.admin.TeacherAdmin.pgdspT" />
+71-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:43:9-63
+71-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:43:19-60
+72        <activity android:name="com.example.attendancetracker.admin.TeacherAdmin.ugdspT" />
+72-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:44:9-63
+72-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:44:19-60
+73        <activity android:name="com.example.attendancetracker.admin.TeacherAdmin.judspT" />
+73-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:45:9-63
+73-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:45:19-60
+74        <activity android:name="com.example.attendancetracker.admin.StudentAdmin.ugdsp" />
+74-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:46:9-62
+74-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:46:19-59
+75        <activity android:name="com.example.attendancetracker.admin.StudentAdmin.pgdsp" />
+75-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:47:9-62
+75-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:47:19-59
+76        <activity android:name="com.example.attendancetracker.admin.StudentAdmin.judsp" />
+76-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:48:9-62
+76-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:48:19-59
+77        <activity android:name="com.example.attendancetracker.admin.AdminActivity" />
+77-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:49:9-57
+77-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:49:19-54
+78        <activity
+78-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:50:9-52:73
+79            android:name="com.example.attendancetracker.Teacher.PostGraduate1"
+79-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:51:13-50
+80            android:parentActivityName="com.example.attendancetracker.Teacher.TeacherHomeActivity" />
+80-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:52:13-70
+81        <activity
+81-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:53:9-55:73
+82            android:name="com.example.attendancetracker.Teacher.UnderGraduate1"
+82-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:54:13-51
+83            android:parentActivityName="com.example.attendancetracker.Teacher.TeacherHomeActivity" />
+83-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:55:13-70
+84        <activity
+84-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:56:9-58:73
+85            android:name="com.example.attendancetracker.Teacher.JuniorCollege1"
+85-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:57:13-51
+86            android:parentActivityName="com.example.attendancetracker.Teacher.TeacherHomeActivity" />
+86-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:58:13-70
+87        <activity android:name="com.example.attendancetracker.Student.ScanActivity" />
+87-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:59:9-58
+87-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:59:19-55
+88        <activity
+88-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:60:9-62:73
+89            android:name="com.example.attendancetracker.Student.TrackAttendnce.TrackAttendanceActivity"
+89-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:61:13-75
+90            android:parentActivityName="com.example.attendancetracker.Student.StudentHomeActivity" />
+90-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:62:13-70
+91        <activity
+91-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:63:9-65:65
+92            android:name="com.example.attendancetracker.HOD.postGraduateLectureHOD"
+92-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:64:13-55
+93            android:parentActivityName="com.example.attendancetracker.HOD.HODHomeActivity" />
+93-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:65:13-62
+94        <activity
+94-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:66:9-68:65
+95            android:name="com.example.attendancetracker.HOD.underGraduateLectureHOD"
+95-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:67:13-56
+96            android:parentActivityName="com.example.attendancetracker.HOD.HODHomeActivity" />
+96-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:68:13-62
+97        <activity
+97-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:69:9-71:65
+98            android:name="com.example.attendancetracker.HOD.juniorCollegeLectureHOD"
+98-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:70:13-56
+99            android:parentActivityName="com.example.attendancetracker.HOD.HODHomeActivity" />
+99-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:71:13-62
+100        <activity
+100-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:72:9-75:59
+101            android:name="com.example.attendancetracker.HOD.HODHomeActivity"
+101-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:73:13-48
+102            android:label="@string/title_activity_hodhome"
+102-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:74:13-59
+103            android:theme="@style/AppTheme.NoActionBar" />
+103-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:75:13-56
+104        <activity android:name="com.example.attendancetracker.ui.base.BaseActivity" />
+104-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:76:9-58
+104-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:76:19-55
+105        <!--
+106             The API key for Google Maps-based APIs is defined as a string resource.
+107             (See the file "res/values/google_maps_api.xml").
+108             Note that the API key is linked to the encryption key used to sign the APK.
+109             You need a different API key for each encryption key, including the release key that is used to
+110             sign the APK for publishing.
+111             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+112        -->
+113        <meta-data
+113-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:85:9-87:55
+114            android:name="com.google.android.geo.API_KEY"
+114-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:86:13-58
+115            android:value="@string/google_maps_key" />
+115-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:87:13-52
+116
+117        <activity
+117-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:89:9-92:73
+118            android:name="com.example.attendancetracker.Student.MarkAttendanceActivity"
+118-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:90:13-59
+119            android:label="@string/title_activity_maps_mark"
+119-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:91:13-61
+120            android:parentActivityName="com.example.attendancetracker.Student.StudentHomeActivity" />
+120-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:92:13-70
+121        <activity android:name="com.example.attendancetracker.admin.TeacherAdmin.AdminTeacherDashboard" />
+121-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:93:9-78
+121-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:93:19-75
+122        <activity
+122-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:94:9-96:86
+123            android:name="com.example.attendancetracker.admin.TeacherAdmin.pgTeacher"
+123-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:95:13-57
+124            android:parentActivityName="com.example.attendancetracker.admin.TeacherAdmin.AdminTeacherDashboard" />
+124-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:96:13-83
+125        <activity
+125-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:97:9-99:86
+126            android:name="com.example.attendancetracker.admin.TeacherAdmin.ugTeacher"
+126-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:98:13-57
+127            android:parentActivityName="com.example.attendancetracker.admin.TeacherAdmin.AdminTeacherDashboard" />
+127-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:99:13-83
+128        <activity
+128-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:100:9-102:86
+129            android:name="com.example.attendancetracker.admin.TeacherAdmin.juniorTeacher"
+129-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:101:13-61
+130            android:parentActivityName="com.example.attendancetracker.admin.TeacherAdmin.AdminTeacherDashboard" />
+130-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:102:13-83
+131        <activity
+131-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:103:9-105:65
+132            android:name="com.example.attendancetracker.admin.StudentAdmin.AdminStudentDashboard"
+132-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:104:13-69
+133            android:parentActivityName="com.example.attendancetracker.admin.AdminActivity" />
+133-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:105:13-62
+134        <activity
+134-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:106:9-108:86
+135            android:name="com.example.attendancetracker.admin.StudentAdmin.p_department"
+135-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:107:13-60
+136            android:parentActivityName="com.example.attendancetracker.admin.StudentAdmin.AdminStudentDashboard" />
+136-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:108:13-83
+137        <activity
+137-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:109:9-111:86
+138            android:name="com.example.attendancetracker.admin.StudentAdmin.ug_department"
+138-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:110:13-61
+139            android:parentActivityName="com.example.attendancetracker.admin.StudentAdmin.AdminStudentDashboard" />
+139-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:111:13-83
+140        <activity
+140-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:112:9-114:86
+141            android:name="com.example.attendancetracker.admin.StudentAdmin.j_department"
+141-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:113:13-60
+142            android:parentActivityName="com.example.attendancetracker.admin.StudentAdmin.AdminStudentDashboard" />
+142-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:114:13-83
+143        <activity
+143-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:115:9-118:59
+144            android:name="com.example.attendancetracker.Teacher.TeacherHomeActivity"
+144-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:116:13-56
+145            android:label="@string/title_activity_teacher_home"
+145-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:117:13-64
+146            android:theme="@style/AppTheme.NoActionBar" />
+146-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:118:13-56
+147        <activity
+147-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:119:9-122:59
+148            android:name="com.example.attendancetracker.Student.StudentHomeActivity"
+148-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:120:13-56
+149            android:label="@string/title_activity_student_home"
+149-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:121:13-64
+150            android:theme="@style/AppTheme.NoActionBar" />
+150-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:122:13-56
+151        <activity
+151-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:123:9-125:73
+152            android:name="com.example.attendancetracker.Teacher.postGraduateLecture"
+152-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:124:13-56
+153            android:parentActivityName="com.example.attendancetracker.Teacher.TeacherHomeActivity" />
+153-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:125:13-70
+154        <activity
+154-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:126:9-128:73
+155            android:name="com.example.attendancetracker.Teacher.underGraduateLecture"
+155-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:127:13-57
+156            android:parentActivityName="com.example.attendancetracker.Teacher.TeacherHomeActivity" />
+156-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:128:13-70
+157        <activity
+157-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:129:9-131:73
+158            android:name="com.example.attendancetracker.Teacher.juniorCollegeLecture"
+158-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:130:13-57
+159            android:parentActivityName="com.example.attendancetracker.Teacher.TeacherHomeActivity" />
+159-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:131:13-70
+160        <activity
+160-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:132:9-134:83
+161            android:name="com.example.attendancetracker.StartScreen_mainactivity.RegistrationActivity"
+161-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:133:13-74
+162            android:parentActivityName="com.example.attendancetracker.StartScreen_mainactivity.MainActivity" />
+162-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:134:13-80
+163        <activity
+163-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:135:9-137:83
+164            android:name="com.example.attendancetracker.StartScreen_mainactivity.ForgotPasswordActivity"
+164-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:136:13-76
+165            android:parentActivityName="com.example.attendancetracker.StartScreen_mainactivity.MainActivity" />
+165-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:137:13-80
+166        <activity android:name="com.example.attendancetracker.ParentHome.parent_home" />
+166-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:138:9-60
+166-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:138:19-57
+167        <activity
+167-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:139:9-142:68
+168            android:name="com.example.attendancetracker.ParentHome.ParentTrackActivity"
+168-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:140:13-59
+169            android:label="Track Attendance"
+169-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:141:13-45
+170            android:parentActivityName="com.example.attendancetracker.ParentHome.parent_home" />
+170-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:142:13-65
+171        <activity
+171-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:143:9-146:68
+172            android:name="com.example.attendancetracker.ParentHome.ParentDetailsActivity"
+172-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:144:13-61
+173            android:label="Add Details"
+173-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:145:13-40
+174            android:parentActivityName="com.example.attendancetracker.ParentHome.parent_home" />
+174-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:146:13-65
+175        <activity
+175-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:147:9-150:68
+176            android:name="com.example.attendancetracker.ParentHome.ParentProfileActivity"
+176-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:148:13-61
+177            android:label="Profile"
+177-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:149:13-36
+178            android:parentActivityName="com.example.attendancetracker.ParentHome.parent_home" />
+178-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:150:13-65
+179        <activity android:name="com.example.attendancetracker.HOD.hod_home" />
+179-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:151:9-50
+179-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:151:19-47
+180        <activity android:name="com.example.attendancetracker.StartScreen_mainactivity.MainActivity" >
+180-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:152:9-158:20
+180-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:152:19-72
+181            <intent-filter>
+181-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:153:13-157:29
+182                <action android:name="android.intent.action.MAIN" />
+182-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:154:17-69
+182-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:154:25-66
+183
+184                <category android:name="android.intent.category.LAUNCHER" />
+184-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:156:17-77
+184-->C:\Users\S Vaidya\AndroidStudioProjects\AttendanceTracker2\app\src\main\AndroidManifest.xml:156:27-74
+185            </intent-filter>
+186        </activity>
+187        <activity
+187-->[com.karumi:dexter:6.0.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\19defc4c4d3953207e08cd0e200b3f8c\jetified-dexter-6.0.2\AndroidManifest.xml:27:9-29:72
+188            android:name="com.karumi.dexter.DexterActivity"
+188-->[com.karumi:dexter:6.0.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\19defc4c4d3953207e08cd0e200b3f8c\jetified-dexter-6.0.2\AndroidManifest.xml:28:13-60
+189            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Needs to be explicitly declared on P+ -->
+189-->[com.karumi:dexter:6.0.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\19defc4c4d3953207e08cd0e200b3f8c\jetified-dexter-6.0.2\AndroidManifest.xml:29:13-69
+190        <uses-library
+190-->[com.google.android.gms:play-services-maps:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\7dfc471bb7895bd3179d625100b7218f\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+191            android:name="org.apache.http.legacy"
+191-->[com.google.android.gms:play-services-maps:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\7dfc471bb7895bd3179d625100b7218f\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+192            android:required="false" />
+192-->[com.google.android.gms:play-services-maps:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\7dfc471bb7895bd3179d625100b7218f\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+193
+194        <service
+194-->[com.google.firebase:firebase-firestore:21.4.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\ff16f23583976290f5916ef4771ab73b\jetified-firebase-firestore-21.4.0\AndroidManifest.xml:17:9-23:19
+195            android:name="com.google.firebase.components.ComponentDiscoveryService"
+195-->[com.google.firebase:firebase-firestore:21.4.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\ff16f23583976290f5916ef4771ab73b\jetified-firebase-firestore-21.4.0\AndroidManifest.xml:18:13-84
+196            android:directBootAware="true"
+196-->[com.google.firebase:firebase-common:19.3.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\d5ae2f905dca277d72c2333071856016\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+197            android:exported="false" >
+197-->[com.google.firebase:firebase-firestore:21.4.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\ff16f23583976290f5916ef4771ab73b\jetified-firebase-firestore-21.4.0\AndroidManifest.xml:19:13-37
+198            <meta-data
+198-->[com.google.firebase:firebase-firestore:21.4.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\ff16f23583976290f5916ef4771ab73b\jetified-firebase-firestore-21.4.0\AndroidManifest.xml:20:13-22:85
+199                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+199-->[com.google.firebase:firebase-firestore:21.4.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\ff16f23583976290f5916ef4771ab73b\jetified-firebase-firestore-21.4.0\AndroidManifest.xml:21:17-111
+200                android:value="com.google.firebase.components.ComponentRegistrar" />
+200-->[com.google.firebase:firebase-firestore:21.4.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\ff16f23583976290f5916ef4771ab73b\jetified-firebase-firestore-21.4.0\AndroidManifest.xml:22:17-82
+201            <meta-data
+201-->[com.google.firebase:firebase-auth:19.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\6060393a4bea94423efc31c59881210c\jetified-firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+202                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+202-->[com.google.firebase:firebase-auth:19.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\6060393a4bea94423efc31c59881210c\jetified-firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+203                android:value="com.google.firebase.components.ComponentRegistrar" />
+203-->[com.google.firebase:firebase-auth:19.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\6060393a4bea94423efc31c59881210c\jetified-firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+204            <meta-data
+204-->[com.google.firebase:firebase-database:19.2.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\faf5133ba0b33a2fde13b99aa002026c\jetified-firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+205                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+205-->[com.google.firebase:firebase-database:19.2.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\faf5133ba0b33a2fde13b99aa002026c\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+206                android:value="com.google.firebase.components.ComponentRegistrar" />
+206-->[com.google.firebase:firebase-database:19.2.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\faf5133ba0b33a2fde13b99aa002026c\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+207            <meta-data
+207-->[com.google.firebase:firebase-storage:19.1.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\2bae4ed60042b5247600f13f46496519\jetified-firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+208                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+208-->[com.google.firebase:firebase-storage:19.1.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\2bae4ed60042b5247600f13f46496519\jetified-firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+209                android:value="com.google.firebase.components.ComponentRegistrar" />
+209-->[com.google.firebase:firebase-storage:19.1.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\2bae4ed60042b5247600f13f46496519\jetified-firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+210            <meta-data
+210-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\d867b7280a6e4d49e9967698fd02f1b0\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+211                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+211-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\d867b7280a6e4d49e9967698fd02f1b0\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+212                android:value="com.google.firebase.components.ComponentRegistrar" />
+212-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\d867b7280a6e4d49e9967698fd02f1b0\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+213            <meta-data
+213-->[com.google.firebase:firebase-iid:20.0.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\2871e420aea024633604a68f8f003ca0\jetified-firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+214                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+214-->[com.google.firebase:firebase-iid:20.0.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\2871e420aea024633604a68f8f003ca0\jetified-firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+215                android:value="com.google.firebase.components.ComponentRegistrar" />
+215-->[com.google.firebase:firebase-iid:20.0.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\2871e420aea024633604a68f8f003ca0\jetified-firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+216        </service>
+217
+218        <activity
+218-->[com.google.firebase:firebase-auth:19.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\6060393a4bea94423efc31c59881210c\jetified-firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+219            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+219-->[com.google.firebase:firebase-auth:19.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\6060393a4bea94423efc31c59881210c\jetified-firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+220            android:excludeFromRecents="true"
+220-->[com.google.firebase:firebase-auth:19.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\6060393a4bea94423efc31c59881210c\jetified-firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+221            android:exported="true"
+221-->[com.google.firebase:firebase-auth:19.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\6060393a4bea94423efc31c59881210c\jetified-firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+222            android:launchMode="singleTask"
+222-->[com.google.firebase:firebase-auth:19.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\6060393a4bea94423efc31c59881210c\jetified-firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+223            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+223-->[com.google.firebase:firebase-auth:19.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\6060393a4bea94423efc31c59881210c\jetified-firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+224            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+224-->[com.google.firebase:firebase-auth:19.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\6060393a4bea94423efc31c59881210c\jetified-firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+225        <activity
+225-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:46:9-52:63
+226            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+226-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74
+227            android:clearTaskOnLaunch="true"
+227-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:48:13-45
+228            android:screenOrientation="sensorLandscape"
+228-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:49:13-56
+229            android:stateNotNeeded="true"
+229-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:50:13-42
+230            android:theme="@style/zxing_CaptureTheme"
+230-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
+231            android:windowSoftInputMode="stateAlwaysHidden" />
+231-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c65aaafab0f6a131ca0c13a6ce996192\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:52:13-60
+232        <activity
+232-->[com.google.android.gms:play-services-auth:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\acd0ebdfe8b3c5d4dadcb67458810e2d\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+233            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+233-->[com.google.android.gms:play-services-auth:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\acd0ebdfe8b3c5d4dadcb67458810e2d\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+234            android:excludeFromRecents="true"
+234-->[com.google.android.gms:play-services-auth:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\acd0ebdfe8b3c5d4dadcb67458810e2d\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+235            android:exported="false"
+235-->[com.google.android.gms:play-services-auth:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\acd0ebdfe8b3c5d4dadcb67458810e2d\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+236            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+236-->[com.google.android.gms:play-services-auth:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\acd0ebdfe8b3c5d4dadcb67458810e2d\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+237        <!--
+238            Service handling Google Sign-In user revocation. For apps that do not integrate with
+239            Google Sign-In, this service will never be started.
+240        -->
+241        <service
+241-->[com.google.android.gms:play-services-auth:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\acd0ebdfe8b3c5d4dadcb67458810e2d\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+242            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+242-->[com.google.android.gms:play-services-auth:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\acd0ebdfe8b3c5d4dadcb67458810e2d\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+243            android:exported="true"
+243-->[com.google.android.gms:play-services-auth:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\acd0ebdfe8b3c5d4dadcb67458810e2d\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+244            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+244-->[com.google.android.gms:play-services-auth:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\acd0ebdfe8b3c5d4dadcb67458810e2d\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+245
+246        <provider
+246-->[com.squareup.picasso:picasso:2.71828] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\4f5ddf4cb52ee076bf1c1e3c791abc42\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+247            android:name="com.squareup.picasso.PicassoProvider"
+247-->[com.squareup.picasso:picasso:2.71828] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\4f5ddf4cb52ee076bf1c1e3c791abc42\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+248            android:authorities="com.example.attendancetracker.com.squareup.picasso"
+248-->[com.squareup.picasso:picasso:2.71828] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\4f5ddf4cb52ee076bf1c1e3c791abc42\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+249            android:exported="false" />
+249-->[com.squareup.picasso:picasso:2.71828] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\4f5ddf4cb52ee076bf1c1e3c791abc42\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+250
+251        <receiver
+251-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+252            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+252-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+253            android:enabled="true"
+253-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+254            android:exported="false" >
+254-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+255        </receiver>
+256        <receiver
+256-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+257            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+257-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+258            android:enabled="true"
+258-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+259            android:exported="true"
+259-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+260            android:permission="android.permission.INSTALL_PACKAGES" >
+260-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+261            <intent-filter>
+261-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+262                <action android:name="com.android.vending.INSTALL_REFERRER" />
+262-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+262-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+263            </intent-filter>
+264        </receiver>
+265
+266        <service
+266-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+267            android:name="com.google.android.gms.measurement.AppMeasurementService"
+267-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+268            android:enabled="true"
+268-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+269            android:exported="false" />
+269-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+270        <service
+270-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+271            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+271-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+272            android:enabled="true"
+272-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+273            android:exported="false"
+273-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+274            android:permission="android.permission.BIND_JOB_SERVICE" />
+274-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\084c1333084bce8b81957fbbb4e019f1\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+275
+276        <receiver
+276-->[com.google.firebase:firebase-iid:20.0.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\2871e420aea024633604a68f8f003ca0\jetified-firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+277            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+277-->[com.google.firebase:firebase-iid:20.0.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\2871e420aea024633604a68f8f003ca0\jetified-firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+278            android:exported="true"
+278-->[com.google.firebase:firebase-iid:20.0.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\2871e420aea024633604a68f8f003ca0\jetified-firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+279            android:permission="com.google.android.c2dm.permission.SEND" >
+279-->[com.google.firebase:firebase-iid:20.0.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\2871e420aea024633604a68f8f003ca0\jetified-firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+280            <intent-filter>
+280-->[com.google.firebase:firebase-iid:20.0.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\2871e420aea024633604a68f8f003ca0\jetified-firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+281                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+281-->[com.google.firebase:firebase-iid:20.0.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\2871e420aea024633604a68f8f003ca0\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+281-->[com.google.firebase:firebase-iid:20.0.2] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\2871e420aea024633604a68f8f003ca0\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+282            </intent-filter>
+283        </receiver>
+284
+285        <provider
+285-->[com.google.firebase:firebase-common:19.3.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\d5ae2f905dca277d72c2333071856016\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+286            android:name="com.google.firebase.provider.FirebaseInitProvider"
+286-->[com.google.firebase:firebase-common:19.3.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\d5ae2f905dca277d72c2333071856016\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+287            android:authorities="com.example.attendancetracker.firebaseinitprovider"
+287-->[com.google.firebase:firebase-common:19.3.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\d5ae2f905dca277d72c2333071856016\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+288            android:exported="false"
+288-->[com.google.firebase:firebase-common:19.3.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\d5ae2f905dca277d72c2333071856016\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+289            android:initOrder="100" />
+289-->[com.google.firebase:firebase-common:19.3.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\d5ae2f905dca277d72c2333071856016\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+290
+291        <activity
+291-->[com.google.android.gms:play-services-base:17.1.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\73f874509465423414ab7604a318e1cc\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+292            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+292-->[com.google.android.gms:play-services-base:17.1.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\73f874509465423414ab7604a318e1cc\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+293            android:exported="false"
+293-->[com.google.android.gms:play-services-base:17.1.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\73f874509465423414ab7604a318e1cc\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+294            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+294-->[com.google.android.gms:play-services-base:17.1.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\73f874509465423414ab7604a318e1cc\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+295
+296        <meta-data
+296-->[com.google.android.gms:play-services-basement:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\f258e3825c6af3b14c7ec1616fae4742\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+297            android:name="com.google.android.gms.version"
+297-->[com.google.android.gms:play-services-basement:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\f258e3825c6af3b14c7ec1616fae4742\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+298            android:value="@integer/google_play_services_version" />
+298-->[com.google.android.gms:play-services-basement:17.0.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\f258e3825c6af3b14c7ec1616fae4742\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+299
+300        <provider
+300-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\fbb45a1792cf0e97ccf5507b087b63b1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+301            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+301-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\fbb45a1792cf0e97ccf5507b087b63b1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+302            android:authorities="com.example.attendancetracker.lifecycle-process"
+302-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\fbb45a1792cf0e97ccf5507b087b63b1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+303            android:exported="false"
+303-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\fbb45a1792cf0e97ccf5507b087b63b1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+304            android:multiprocess="true" />
+304-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\fbb45a1792cf0e97ccf5507b087b63b1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+305    </application>
+306
+307</manifest>

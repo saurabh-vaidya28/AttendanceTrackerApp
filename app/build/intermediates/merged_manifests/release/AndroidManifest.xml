@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.attendancetracker"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="25"
+        android:targetSdkVersion="28" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.attendancetracker.ui.teacherlecturedetails.TeacherPostLectureDetailsActivity" />
+        <activity android:name="com.example.attendancetracker.ui.teacherlecturedetails.TeacherUnderLectureDetailsActivity" />
+        <activity android:name="com.example.attendancetracker.ui.teacherlecturedetails.TeacherJuniorLectureDetailsActivity" />
+        <activity android:name="com.example.attendancetracker.ui.hodlecturedetails.hodPostLectureDetailsActivty" />
+        <activity android:name="com.example.attendancetracker.ui.hodlecturedetails.hodUnderLectureDetailsActvity" />
+        <activity android:name="com.example.attendancetracker.ui.hodlecturedetails.hodJuniorLectureDetailsActivity" />
+        <activity android:name="com.example.attendancetracker.ui.hodprofile.UpdateProfileHODActivity" />
+        <activity android:name="com.example.attendancetracker.ui.teacherprofile.UpdateProfileActivity" />
+        <activity android:name="com.example.attendancetracker.admin.TeacherAdmin.pgdspT" />
+        <activity android:name="com.example.attendancetracker.admin.TeacherAdmin.ugdspT" />
+        <activity android:name="com.example.attendancetracker.admin.TeacherAdmin.judspT" />
+        <activity android:name="com.example.attendancetracker.admin.StudentAdmin.ugdsp" />
+        <activity android:name="com.example.attendancetracker.admin.StudentAdmin.pgdsp" />
+        <activity android:name="com.example.attendancetracker.admin.StudentAdmin.judsp" />
+        <activity android:name="com.example.attendancetracker.admin.AdminActivity" />
+        <activity
+            android:name="com.example.attendancetracker.Teacher.PostGraduate1"
+            android:parentActivityName="com.example.attendancetracker.Teacher.TeacherHomeActivity" />
+        <activity
+            android:name="com.example.attendancetracker.Teacher.UnderGraduate1"
+            android:parentActivityName="com.example.attendancetracker.Teacher.TeacherHomeActivity" />
+        <activity
+            android:name="com.example.attendancetracker.Teacher.JuniorCollege1"
+            android:parentActivityName="com.example.attendancetracker.Teacher.TeacherHomeActivity" />
+        <activity android:name="com.example.attendancetracker.Student.ScanActivity" />
+        <activity
+            android:name="com.example.attendancetracker.Student.TrackAttendnce.TrackAttendanceActivity"
+            android:parentActivityName="com.example.attendancetracker.Student.StudentHomeActivity" />
+        <activity
+            android:name="com.example.attendancetracker.HOD.postGraduateLectureHOD"
+            android:parentActivityName="com.example.attendancetracker.HOD.HODHomeActivity" />
+        <activity
+            android:name="com.example.attendancetracker.HOD.underGraduateLectureHOD"
+            android:parentActivityName="com.example.attendancetracker.HOD.HODHomeActivity" />
+        <activity
+            android:name="com.example.attendancetracker.HOD.juniorCollegeLectureHOD"
+            android:parentActivityName="com.example.attendancetracker.HOD.HODHomeActivity" />
+        <activity
+            android:name="com.example.attendancetracker.HOD.HODHomeActivity"
+            android:label="@string/title_activity_hodhome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.attendancetracker.ui.base.BaseActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.example.attendancetracker.Student.MarkAttendanceActivity"
+            android:label="@string/title_activity_maps_mark"
+            android:parentActivityName="com.example.attendancetracker.Student.StudentHomeActivity" />
+        <activity android:name="com.example.attendancetracker.admin.TeacherAdmin.AdminTeacherDashboard" />
+        <activity
+            android:name="com.example.attendancetracker.admin.TeacherAdmin.pgTeacher"
+            android:parentActivityName="com.example.attendancetracker.admin.TeacherAdmin.AdminTeacherDashboard" />
+        <activity
+            android:name="com.example.attendancetracker.admin.TeacherAdmin.ugTeacher"
+            android:parentActivityName="com.example.attendancetracker.admin.TeacherAdmin.AdminTeacherDashboard" />
+        <activity
+            android:name="com.example.attendancetracker.admin.TeacherAdmin.juniorTeacher"
+            android:parentActivityName="com.example.attendancetracker.admin.TeacherAdmin.AdminTeacherDashboard" />
+        <activity
+            android:name="com.example.attendancetracker.admin.StudentAdmin.AdminStudentDashboard"
+            android:parentActivityName="com.example.attendancetracker.admin.AdminActivity" />
+        <activity
+            android:name="com.example.attendancetracker.admin.StudentAdmin.p_department"
+            android:parentActivityName="com.example.attendancetracker.admin.StudentAdmin.AdminStudentDashboard" />
+        <activity
+            android:name="com.example.attendancetracker.admin.StudentAdmin.ug_department"
+            android:parentActivityName="com.example.attendancetracker.admin.StudentAdmin.AdminStudentDashboard" />
+        <activity
+            android:name="com.example.attendancetracker.admin.StudentAdmin.j_department"
+            android:parentActivityName="com.example.attendancetracker.admin.StudentAdmin.AdminStudentDashboard" />
+        <activity
+            android:name="com.example.attendancetracker.Teacher.TeacherHomeActivity"
+            android:label="@string/title_activity_teacher_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.attendancetracker.Student.StudentHomeActivity"
+            android:label="@string/title_activity_student_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.attendancetracker.Teacher.postGraduateLecture"
+            android:parentActivityName="com.example.attendancetracker.Teacher.TeacherHomeActivity" />
+        <activity
+            android:name="com.example.attendancetracker.Teacher.underGraduateLecture"
+            android:parentActivityName="com.example.attendancetracker.Teacher.TeacherHomeActivity" />
+        <activity
+            android:name="com.example.attendancetracker.Teacher.juniorCollegeLecture"
+            android:parentActivityName="com.example.attendancetracker.Teacher.TeacherHomeActivity" />
+        <activity
+            android:name="com.example.attendancetracker.StartScreen_mainactivity.RegistrationActivity"
+            android:parentActivityName="com.example.attendancetracker.StartScreen_mainactivity.MainActivity" />
+        <activity
+            android:name="com.example.attendancetracker.StartScreen_mainactivity.ForgotPasswordActivity"
+            android:parentActivityName="com.example.attendancetracker.StartScreen_mainactivity.MainActivity" />
+        <activity android:name="com.example.attendancetracker.ParentHome.parent_home" />
+        <activity
+            android:name="com.example.attendancetracker.ParentHome.ParentTrackActivity"
+            android:label="Track Attendance"
+            android:parentActivityName="com.example.attendancetracker.ParentHome.parent_home" />
+        <activity
+            android:name="com.example.attendancetracker.ParentHome.ParentDetailsActivity"
+            android:label="Add Details"
+            android:parentActivityName="com.example.attendancetracker.ParentHome.parent_home" />
+        <activity
+            android:name="com.example.attendancetracker.ParentHome.ParentProfileActivity"
+            android:label="Profile"
+            android:parentActivityName="com.example.attendancetracker.ParentHome.parent_home" />
+        <activity android:name="com.example.attendancetracker.HOD.hod_home" />
+        <activity android:name="com.example.attendancetracker.StartScreen_mainactivity.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.attendancetracker.com.squareup.picasso"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.attendancetracker.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.attendancetracker.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

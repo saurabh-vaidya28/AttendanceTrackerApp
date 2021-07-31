@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_sthome">
+
+    <fragment
+        android:id="@+id/nav_sthome"
+        android:name="com.example.attendancetracker.ui.studenthome.studentHome"
+        android:label="Home"
+        tools:layout="@layout/fragment_studenthome" />
+    <fragment
+        android:id="@+id/nav_stadddetails"
+        android:name="com.example.attendancetracker.ui.studentdetails.StudentDetailsFragment"
+        android:label="Add details"
+        tools:layout="@layout/fragment_studentdetails" />
+    <fragment
+        android:id="@+id/nav_stprofile"
+        android:name="com.example.attendancetracker.ui.student_profile.studentProfile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_student_profile" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_stinfo"-->
+<!--        android:name="com.example.attendancetracker.ui.st_info.studentInfo"-->
+<!--        android:label="Info"-->
+<!--        tools:layout="@layout/fragment_studentinfo" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_stsub"-->
+<!--        android:name="com.example.attendancetracker.ui.student_subject.studentSubject"-->
+<!--        android:label="Subjects"-->
+<!--        tools:layout="@layout/fragment_studentsubjects" />-->
+
+    <fragment
+        android:id="@+id/nav_stchpasswd"
+        android:name="com.example.attendancetracker.ui.student_changepasswd.studentChangePassword"
+        android:label="Change Password"
+        tools:layout="@layout/fragment_changepassword" />
+
+    <fragment
+        android:id="@+id/nav_stlogout"
+        android:name="com.example.attendancetracker.ui.student_logout.studentLogout"
+        android:label="Logout"
+        tools:layout="@layout/fragment_hodlogout" />
+
+
+
+</navigation>

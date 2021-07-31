@@ -1,0 +1,886 @@
+[
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_l.jpg.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\l.jpg"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_logout.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\logout.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_rounded_register.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\button_rounded_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_add_teacher.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\add_teacher.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_action_logo.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-anydpi\\ic_action_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_logo.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-hdpi\\ic_action_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\menu_student_home.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\menu\\student_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_reg_bg.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\reg_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_k.jpg.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\k.jpg"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ug_teacher.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\ug_teacher.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_logout_admin.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\logout_admin.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_attendance.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\attendance.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\menu_search_track.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\menu\\search_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_logo.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-mdpi\\ic_action_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ug.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\ug.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_done.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\done.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_studentdetails.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_studentdetails.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_qr.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\qr.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_usera.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_usera.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v21\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_mark_atten.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\mark_atten.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_button_rounded.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\button_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_clear.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_clear.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_action_face.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-anydpi\\ic_action_face.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_qr1.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\qr1.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_jc_teacher.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\jc_teacher.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_student_home.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_student_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_menu_background.jpg.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\menu_background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\menu_teacher_home.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\menu\\teacher_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_action_lock.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-anydpi\\ic_action_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_parent_details.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_parent_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_clear.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_clear.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_lock.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-hdpi\\ic_action_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_card_view_attendance.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\card_view_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_rounded_fp.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\button_rounded_fp.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_send.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v21\\ic_menu_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_under_graduate_lecture_hod.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_under_graduate_lecture_hod.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_user.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-mdpi\\ic_action_user.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_j.jpg.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\j.jpg"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_face.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-hdpi\\ic_action_face.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_action_user.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-anydpi\\ic_action_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_student_dash.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\student_dash.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_user.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-hdpi\\ic_action_user.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_power_settings_new_black_24dp.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\ic_power_settings_new_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_teacher_dash1.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\teacher_dash1.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_teacherlogout.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_teacherlogout.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_face.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-mdpi\\ic_action_face.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_lec_ins_back_2.jpg.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\lec_ins_back_2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v21\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_m.jpg.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\m.jpg"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\menu_hodhome.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\menu\\hodhome.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_lock.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-mdpi\\ic_action_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_keyboard_backspace_black_24dp.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\ic_keyboard_backspace_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_under_graduate1.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_under_graduate1.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_share.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v21\\ic_menu_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_button_rounded1.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\button_rounded1.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_clear.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-hdpi\\ic_action_clear.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_face.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_face.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_student_home.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\nav_header_student_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_action_clear.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-anydpi\\ic_action_clear.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_hod_post_lecture_details.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_hod_post_lecture_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_a_student_display.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_a_student_display.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pgdsp_t.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_pgdsp_t.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_forgot_pass.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_forgot_pass.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_parent_profile.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_parent_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_usera.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_usera.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_teacher_post_lecture_details_activty.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_teacher_post_lecture_details_activty.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_jc_teacher.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\jc_teacher.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_parent_home.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_parent_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_j_department.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_j_department.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_junior_college_lecture.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_junior_college_lecture.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_junior_teacher.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_junior_teacher.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_gallery.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pgdisplay.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_pgdisplay.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_junior_college1.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_junior_college1.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_teacherdetails.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_teacherdetails.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\menu_admin_home.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\menu\\admin_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_hodhome.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\app_bar_hodhome.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_teacher_under_lecture_details.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_teacher_under_lecture_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation_student.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\navigation\\mobile_navigation_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_logo.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_lock.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_login_icon.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\login_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_user.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_user.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_add_details.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\add_details.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_uglecture.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\uglecture.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_login1_icon.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\login1_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_student_profile.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_student_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_registration.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_judsp_t.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_judsp_t.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_view_list_black_24dp.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\ic_view_list_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_clear.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-mdpi\\ic_action_clear.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_content_hodhome.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\content_hodhome.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_hodhome.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\nav_header_hodhome.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_parent_track.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_parent_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_track_atten.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\track_atten.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_jclecture.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\jclecture.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_student_home_drawer.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\menu\\activity_student_home_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_jc.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\jc.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_changepassword.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_changepassword.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_admin.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_profile.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_judsp.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_judsp.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ugdisplay.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_ugdisplay.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_post_graduate1.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_post_graduate1.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_hod_junior_lecture_details.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_hod_junior_lecture_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_scan.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_hod_under_lecture_details.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_hod_under_lecture_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ug.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\ug.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_hodhome.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_hodhome.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ug_teacher.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_ug_teacher.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_teacherprofile.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_teacherprofile.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_vpn_key_black_24dp.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\ic_vpn_key_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_bscit.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\bscit.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_student_dash.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\student_dash.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation_hod.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\navigation\\mobile_navigation_hod.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_teacher_home.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\app_bar_teacher_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_update_profile.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_update_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_content_teacher_home.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\content_teacher_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_teacherchangepassword.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_teacherchangepassword.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ug_department.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_ug_department.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_admin_student_dashboard.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_admin_student_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_post_graduate_lecture_hod.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_post_graduate_lecture_hod.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pg_teacher.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_pg_teacher.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_student_home.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\app_bar_student_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_teacher_junior_lecture_details.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_teacher_junior_lecture_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_pg_teacher.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\pg_teacher.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_teacher_home_drawer.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\menu\\activity_teacher_home_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_card_view_lecture.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\card_view_lecture.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_h_o_d_lecture_details.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_h_o_d_lecture_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_user.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_hod_home.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_hod_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_junior_display.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_junior_display.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_hodlogout.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_hodlogout.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_search_black_24dp.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_jc.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\jc.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ugdsp.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_ugdsp.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_p.jpg.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\p.jpg"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_pg.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\pg.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_teacherhome.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_teacherhome.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_content_student_home.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\content_student_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_usera.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-mdpi\\ic_action_usera.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_action_usera.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-anydpi\\ic_action_usera.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_hodprofile.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_hodprofile.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation_teacher.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\navigation\\mobile_navigation_teacher.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ug_teacher.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\ug_teacher.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_hodchangepassword.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_hodchangepassword.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_o.jpg.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\o.jpg"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_fp.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\fp.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_maps_mark.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_maps_mark.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_admin_teacher_dashboard.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_admin_teacher_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_da.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\da.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_bg1_image.jpg.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\bg1_image.jpg"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_update_profile_h_o_d.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_update_profile_h_o_d.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_logo.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_junior_college_lecture_hod.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_junior_college_lecture_hod.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_manage.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v21\\ic_menu_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_person_black_24dp.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_hodhome.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_hodhome.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_studenthome.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_studenthome.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_track_attendance.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_track_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_hoddetails.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_hoddetails.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_tools.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_tools.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_teacher_dash.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\teacher_dash.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_c.jpg.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\c.jpg"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_n.jpg.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\n.jpg"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_add_circle_black_24dp.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\ic_add_circle_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_teacher_dash.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\teacher_dash.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_teacher_home.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_teacher_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_back.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_post_graduate_lecture.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_post_graduate_lecture.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_base.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_studentdisplay.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\studentdisplay.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_lec_ins_back_1.jpg.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\lec_ins_back_1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_add_student.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\add_student.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_face.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_face.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_pglecture.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\pglecture.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_teacher_home.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\nav_header_teacher_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_user.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_user.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_lock.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_custom_toast.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\custom_toast.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pgdsp.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_pgdsp.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_it.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\it.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ugdsp_t.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_ugdsp_t.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_hodhome_drawer.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\menu\\activity_hodhome_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_under_graduate_lecture.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_under_graduate_lecture.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_login_bg.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\login_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_teacherlecturedetails.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\fragment_teacherlecturedetails.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_i.jpg.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-v24\\i.jpg"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_p_department.xml.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\layout\\activity_p_department.xml"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_usera.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable-hdpi\\ic_action_usera.png"
+    },
+    {
+        "merged": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\merged_res\\debug\\drawable_pg.png.flat",
+        "source": "C:\\Users\\100_rabh\\AndroidStudioProjects\\AttendanceTracker2\\app\\src\\main\\res\\drawable\\pg.png"
+    }
+]

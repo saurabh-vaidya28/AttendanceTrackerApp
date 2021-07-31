@@ -1,0 +1,296 @@
+com/example/attendancetracker/Teacher/Lecture.java
+ com.example.attendancetracker.Teacher.Lecture
+com/example/attendancetracker/ui/hodchangepassword/HODChangePasswdFragment.java
+ com.example.attendancetracker.ui.hodchangepassword.HODChangePasswdFragment
+ com.example.attendancetracker.ui.hodchangepassword.HODChangePasswdFragment$1
+ com.example.attendancetracker.ui.hodchangepassword.HODChangePasswdFragment$2
+com/example/attendancetracker/admin/TeacherAdmin/ugTeacher.java
+ com.example.attendancetracker.admin.TeacherAdmin.ugTeacher
+com/example/attendancetracker/admin/StudentAdmin/asdisplay.java
+ com.example.attendancetracker.admin.StudentAdmin.asdisplay
+com/example/attendancetracker/ui/hodlecturedetails/HODLectureAdapter.java
+ com.example.attendancetracker.ui.hodlecturedetails.HODLectureAdapter
+ com.example.attendancetracker.ui.hodlecturedetails.HODLectureAdapter$PastViewHolder
+com/example/attendancetracker/ui/hodlecturedetails/HODMyAdapterLecture.java
+ com.example.attendancetracker.ui.hodlecturedetails.HODMyAdapterLecture
+ com.example.attendancetracker.ui.hodlecturedetails.HODMyAdapterLecture$myViewHolder
+com/example/attendancetracker/ui/base/BaseActivity.java
+ com.example.attendancetracker.ui.base.BaseActivity
+com/example/attendancetracker/ui/hodchangepassword/ShareViewModel.java
+ com.example.attendancetracker.ui.hodchangepassword.ShareViewModel
+com/example/attendancetracker/HOD/HODHomeActivity.java
+ com.example.attendancetracker.HOD.HODHomeActivity
+ com.example.attendancetracker.HOD.HODHomeActivity$1
+ com.example.attendancetracker.HOD.HODHomeActivity$2
+com/example/attendancetracker/ui/studenthome/studentHome.java
+ com.example.attendancetracker.ui.studenthome.studentHome
+com/example/attendancetracker/Student/Mark_Attendance_Database.java
+ com.example.attendancetracker.Student.Mark_Attendance_Database
+com/example/attendancetracker/Teacher/PostGraduate1.java
+ com.example.attendancetracker.Teacher.PostGraduate1
+ com.example.attendancetracker.Teacher.PostGraduate1$1
+ com.example.attendancetracker.Teacher.PostGraduate1$2
+ com.example.attendancetracker.Teacher.PostGraduate1$3
+com/example/attendancetracker/admin/TeacherAdmin/ugdspT.java
+ com.example.attendancetracker.admin.TeacherAdmin.ugdspT
+ com.example.attendancetracker.admin.TeacherAdmin.ugdspT$1
+com/example/attendancetracker/ui/teacherlogout/ToolsViewModel.java
+ com.example.attendancetracker.ui.teacherlogout.ToolsViewModel
+com/example/attendancetracker/ui/hodlecturedetails/HODLectureDetailsViewModel.java
+ com.example.attendancetracker.ui.hodlecturedetails.HODLectureDetailsViewModel
+com/example/attendancetracker/ui/student_changepasswd/studentChangePassword.java
+ com.example.attendancetracker.ui.student_changepasswd.studentChangePassword
+ com.example.attendancetracker.ui.student_changepasswd.studentChangePassword$1
+ com.example.attendancetracker.ui.student_changepasswd.studentChangePassword$2
+com/example/attendancetracker/admin/StudentAdmin/p_department.java
+ com.example.attendancetracker.admin.StudentAdmin.p_department
+com/example/attendancetracker/HOD/hod_home.java
+ com.example.attendancetracker.HOD.hod_home
+com/example/attendancetracker/ui/teacherlecturedetails/TeacherPostLectureDetailsActivity.java
+ com.example.attendancetracker.ui.teacherlecturedetails.TeacherPostLectureDetailsActivity
+ com.example.attendancetracker.ui.teacherlecturedetails.TeacherPostLectureDetailsActivity$1
+com/example/attendancetracker/ui/hodlecturedetails/hodJuniorLectureDetailsActivity.java
+ com.example.attendancetracker.ui.hodlecturedetails.hodJuniorLectureDetailsActivity
+ com.example.attendancetracker.ui.hodlecturedetails.hodJuniorLectureDetailsActivity$1
+com/example/attendancetracker/tr.java
+ com.example.attendancetracker.tr
+com/example/attendancetracker/ui/studentdetails/DetailsViewModel.java
+ com.example.attendancetracker.ui.studentdetails.DetailsViewModel
+com/example/attendancetracker/admin/StudentAdmin/j_department.java
+ com.example.attendancetracker.admin.StudentAdmin.j_department
+com/example/attendancetracker/ui/student_profile/ShareViewModel.java
+ com.example.attendancetracker.ui.student_profile.ShareViewModel
+com/example/attendancetracker/admin/StudentAdmin/ug_department.java
+ com.example.attendancetracker.admin.StudentAdmin.ug_department
+com/example/attendancetracker/StartScreen_mainactivity/User.java
+ com.example.attendancetracker.StartScreen_mainactivity.User
+com/example/attendancetracker/ui/teacherhome/HomeViewModel.java
+ com.example.attendancetracker.ui.teacherhome.HomeViewModel
+com/example/attendancetracker/StartScreen_mainactivity/MainActivity.java
+ com.example.attendancetracker.StartScreen_mainactivity.MainActivity
+ com.example.attendancetracker.StartScreen_mainactivity.MainActivity$1
+ com.example.attendancetracker.StartScreen_mainactivity.MainActivity$1$1
+ com.example.attendancetracker.StartScreen_mainactivity.MainActivity$2
+ com.example.attendancetracker.StartScreen_mainactivity.MainActivity$2$1
+com/example/attendancetracker/ui/hodhome/HomeViewModel.java
+ com.example.attendancetracker.ui.hodhome.HomeViewModel
+com/example/attendancetracker/Teacher/UnderGraduate1.java
+ com.example.attendancetracker.Teacher.UnderGraduate1
+ com.example.attendancetracker.Teacher.UnderGraduate1$1
+ com.example.attendancetracker.Teacher.UnderGraduate1$2
+ com.example.attendancetracker.Teacher.UnderGraduate1$3
+com/example/attendancetracker/HOD/juniorCollegeLectureHOD.java
+ com.example.attendancetracker.HOD.juniorCollegeLectureHOD
+ com.example.attendancetracker.HOD.juniorCollegeLectureHOD$1
+ com.example.attendancetracker.HOD.juniorCollegeLectureHOD$2
+com/example/attendancetracker/ui/teacherprofile/UpdateProfileActivity.java
+ com.example.attendancetracker.ui.teacherprofile.UpdateProfileActivity
+ com.example.attendancetracker.ui.teacherprofile.UpdateProfileActivity$1
+ com.example.attendancetracker.ui.teacherprofile.UpdateProfileActivity$2
+com/example/attendancetracker/admin/AdminActivity.java
+ com.example.attendancetracker.admin.AdminActivity
+com/example/attendancetracker/admin/StudentAdmin/pgdsp.java
+ com.example.attendancetracker.admin.StudentAdmin.pgdsp
+ com.example.attendancetracker.admin.StudentAdmin.pgdsp$1
+com/example/attendancetracker/ui/student_profile/display.java
+ com.example.attendancetracker.ui.student_profile.display
+com/example/attendancetracker/Teacher/JuniorCollege1.java
+ com.example.attendancetracker.Teacher.JuniorCollege1
+ com.example.attendancetracker.Teacher.JuniorCollege1$1
+ com.example.attendancetracker.Teacher.JuniorCollege1$2
+ com.example.attendancetracker.Teacher.JuniorCollege1$3
+com/example/attendancetracker/ui/teacherprofile/GalleryViewModel.java
+ com.example.attendancetracker.ui.teacherprofile.GalleryViewModel
+com/example/attendancetracker/ui/hodprofile/HODProfileFragment.java
+ com.example.attendancetracker.ui.hodprofile.HODProfileFragment
+ com.example.attendancetracker.ui.hodprofile.HODProfileFragment$1
+ com.example.attendancetracker.ui.hodprofile.HODProfileFragment$2
+com/example/attendancetracker/sub.java
+ com.example.attendancetracker.sub
+com/example/attendancetracker/ui/teacherlecturedetails/LectureDetailsViewModel.java
+ com.example.attendancetracker.ui.teacherlecturedetails.LectureDetailsViewModel
+com/example/attendancetracker/ui/hodprofile/SendViewModel.java
+ com.example.attendancetracker.ui.hodprofile.SendViewModel
+com/example/attendancetracker/ui/teacherhome/HomeFragment.java
+ com.example.attendancetracker.ui.teacherhome.HomeFragment
+com/example/attendancetracker/ui/teacherlogout/TeacherLogoutFragment.java
+ com.example.attendancetracker.ui.teacherlogout.TeacherLogoutFragment
+com/example/attendancetracker/ui/teacherlecturedetails/LectureAdapter.java
+ com.example.attendancetracker.ui.teacherlecturedetails.LectureAdapter
+ com.example.attendancetracker.ui.teacherlecturedetails.LectureAdapter$PastViewHolder
+com/example/attendancetracker/ParentHome/Parent.java
+ com.example.attendancetracker.ParentHome.Parent
+com/example/attendancetracker/StartScreen_mainactivity/RegistrationActivity.java
+ com.example.attendancetracker.StartScreen_mainactivity.RegistrationActivity
+ com.example.attendancetracker.StartScreen_mainactivity.RegistrationActivity$1
+ com.example.attendancetracker.StartScreen_mainactivity.RegistrationActivity$2
+ com.example.attendancetracker.StartScreen_mainactivity.RegistrationActivity$2$1
+ com.example.attendancetracker.StartScreen_mainactivity.RegistrationActivity$2$1$1
+com/example/attendancetracker/Teacher/juniorCollegeLecture.java
+ com.example.attendancetracker.Teacher.juniorCollegeLecture
+ com.example.attendancetracker.Teacher.juniorCollegeLecture$1
+com/example/attendancetracker/ParentHome/ParentDetailsActivity.java
+ com.example.attendancetracker.ParentHome.ParentDetailsActivity
+ com.example.attendancetracker.ParentHome.ParentDetailsActivity$1
+ com.example.attendancetracker.ParentHome.ParentDetailsActivity$2
+com/example/attendancetracker/College.java
+ com.example.attendancetracker.College
+com/example/attendancetracker/ui/teacherchangepassword/TeacherChangePasswdFragment.java
+ com.example.attendancetracker.ui.teacherchangepassword.TeacherChangePasswdFragment
+ com.example.attendancetracker.ui.teacherchangepassword.TeacherChangePasswdFragment$1
+ com.example.attendancetracker.ui.teacherchangepassword.TeacherChangePasswdFragment$2
+com/example/attendancetracker/ui/teacherdetails/DetailsViewModel.java
+ com.example.attendancetracker.ui.teacherdetails.DetailsViewModel
+com/example/attendancetracker/ui/student_profile/studentProfile.java
+ com.example.attendancetracker.ui.student_profile.studentProfile
+ com.example.attendancetracker.ui.student_profile.studentProfile$1
+ com.example.attendancetracker.ui.student_profile.studentProfile$2
+com/example/attendancetracker/Teacher/TeacherHomeActivity.java
+ com.example.attendancetracker.Teacher.TeacherHomeActivity
+ com.example.attendancetracker.Teacher.TeacherHomeActivity$1
+ com.example.attendancetracker.Teacher.TeacherHomeActivity$2
+com/example/attendancetracker/ui/teacherprofile/TeacherProfileFragment.java
+ com.example.attendancetracker.ui.teacherprofile.TeacherProfileFragment
+ com.example.attendancetracker.ui.teacherprofile.TeacherProfileFragment$1
+ com.example.attendancetracker.ui.teacherprofile.TeacherProfileFragment$2
+com/example/attendancetracker/Student/ScanActivity.java
+ com.example.attendancetracker.Student.ScanActivity
+ com.example.attendancetracker.Student.ScanActivity$1
+ com.example.attendancetracker.Student.ScanActivity$2
+ com.example.attendancetracker.Student.ScanActivity$3
+com/example/attendancetracker/ui/hoddetails/HODDetailsFragment.java
+ com.example.attendancetracker.ui.hoddetails.HODDetailsFragment
+ com.example.attendancetracker.ui.hoddetails.HODDetailsFragment$1
+com/example/attendancetracker/admin/StudentAdmin/ugdsp.java
+ com.example.attendancetracker.admin.StudentAdmin.ugdsp
+ com.example.attendancetracker.admin.StudentAdmin.ugdsp$1
+com/example/attendancetracker/ui/studenthome/HomeViewModel.java
+ com.example.attendancetracker.ui.studenthome.HomeViewModel
+com/example/attendancetracker/Teacher/underGraduateLecture.java
+ com.example.attendancetracker.Teacher.underGraduateLecture
+ com.example.attendancetracker.Teacher.underGraduateLecture$1
+com/example/attendancetracker/Student/StudentHomeActivity.java
+ com.example.attendancetracker.Student.StudentHomeActivity
+ com.example.attendancetracker.Student.StudentHomeActivity$1
+ com.example.attendancetracker.Student.StudentHomeActivity$2
+com/example/attendancetracker/ui/teacherlecturedetails/TeacherLectureDetailsFragment.java
+ com.example.attendancetracker.ui.teacherlecturedetails.TeacherLectureDetailsFragment
+com/example/attendancetracker/HOD/LectureHOD.java
+ com.example.attendancetracker.HOD.LectureHOD
+com/example/attendancetracker/Student/TrackAttendnce/TrackAttendanceActivity.java
+ com.example.attendancetracker.Student.TrackAttendnce.TrackAttendanceActivity
+ com.example.attendancetracker.Student.TrackAttendnce.TrackAttendanceActivity$1
+com/example/attendancetracker/ParentHome/parent_home.java
+ com.example.attendancetracker.ParentHome.parent_home
+com/example/attendancetracker/admin/StudentAdmin/judsp.java
+ com.example.attendancetracker.admin.StudentAdmin.judsp
+ com.example.attendancetracker.admin.StudentAdmin.judsp$1
+com/example/attendancetracker/ui/teacherdetails/TeacherDetailsFragment.java
+ com.example.attendancetracker.ui.teacherdetails.TeacherDetailsFragment
+ com.example.attendancetracker.ui.teacherdetails.TeacherDetailsFragment$1
+com/example/attendancetracker/Teacher/postGraduateLecture.java
+ com.example.attendancetracker.Teacher.postGraduateLecture
+ com.example.attendancetracker.Teacher.postGraduateLecture$1
+com/example/attendancetracker/st.java
+ com.example.attendancetracker.st
+com/example/attendancetracker/ui/student_logout/ToolsViewModel.java
+ com.example.attendancetracker.ui.student_logout.ToolsViewModel
+com/example/attendancetracker/Student/TrackAttendnce/MyAdapterAttendance.java
+ com.example.attendancetracker.Student.TrackAttendnce.MyAdapterAttendance
+ com.example.attendancetracker.Student.TrackAttendnce.MyAdapterAttendance$myViewHolder
+com/example/attendancetracker/Student/MarkAttendanceActivity.java
+ com.example.attendancetracker.Student.MarkAttendanceActivity
+ com.example.attendancetracker.Student.MarkAttendanceActivity$1
+ com.example.attendancetracker.Student.MarkAttendanceActivity$2
+ com.example.attendancetracker.Student.MarkAttendanceActivity$3
+ com.example.attendancetracker.Student.MarkAttendanceActivity$4
+ com.example.attendancetracker.Student.MarkAttendanceActivity$5
+ com.example.attendancetracker.Student.MarkAttendanceActivity$6
+ com.example.attendancetracker.Student.MarkAttendanceActivity$7
+com/example/attendancetracker/ui/hodprofile/UpdateProfileHODActivity.java
+ com.example.attendancetracker.ui.hodprofile.UpdateProfileHODActivity
+ com.example.attendancetracker.ui.hodprofile.UpdateProfileHODActivity$1
+com/example/attendancetracker/ui/hodlogout/HODLogoutFragment.java
+ com.example.attendancetracker.ui.hodlogout.HODLogoutFragment
+com/example/attendancetracker/ui/hoddetails/GalleryViewModel.java
+ com.example.attendancetracker.ui.hoddetails.GalleryViewModel
+com/example/attendancetracker/ParentHome/ParentTrackActivity.java
+ com.example.attendancetracker.ParentHome.ParentTrackActivity
+com/example/attendancetracker/Student/TrackAttendnce/AttendanceAdapter.java
+ com.example.attendancetracker.Student.TrackAttendnce.AttendanceAdapter
+ com.example.attendancetracker.Student.TrackAttendnce.AttendanceAdapter$PastViewHolder
+com/example/attendancetracker/ui/teacherprofile/tdisplay.java
+ com.example.attendancetracker.ui.teacherprofile.tdisplay
+com/example/attendancetracker/HOD/postGraduateLectureHOD.java
+ com.example.attendancetracker.HOD.postGraduateLectureHOD
+ com.example.attendancetracker.HOD.postGraduateLectureHOD$1
+ com.example.attendancetracker.HOD.postGraduateLectureHOD$2
+com/example/attendancetracker/StartScreen_mainactivity/forgotPass.java
+ com.example.attendancetracker.StartScreen_mainactivity.forgotPass
+ com.example.attendancetracker.StartScreen_mainactivity.forgotPass$1
+com/example/attendancetracker/ui/teacherdetails/Teacher.java
+ com.example.attendancetracker.ui.teacherdetails.Teacher
+com/example/attendancetracker/admin/TeacherAdmin/pgTeacher.java
+ com.example.attendancetracker.admin.TeacherAdmin.pgTeacher
+com/example/attendancetracker/ui/student_logout/studentLogout.java
+ com.example.attendancetracker.ui.student_logout.studentLogout
+com/example/attendancetracker/ui/hodlecturedetails/HODLectureDetailsFragment.java
+ com.example.attendancetracker.ui.hodlecturedetails.HODLectureDetailsFragment
+com/example/attendancetracker/StartScreen_mainactivity/register_registration.java
+ com.example.attendancetracker.StartScreen_mainactivity.register_registration
+com/example/attendancetracker/ui/teacherlecturedetails/TeacherUnderLectureDetailsActivity.java
+ com.example.attendancetracker.ui.teacherlecturedetails.TeacherUnderLectureDetailsActivity
+ com.example.attendancetracker.ui.teacherlecturedetails.TeacherUnderLectureDetailsActivity$1
+com/example/attendancetracker/ui/hodlecturedetails/hodUnderLectureDetailsActvity.java
+ com.example.attendancetracker.ui.hodlecturedetails.hodUnderLectureDetailsActvity
+ com.example.attendancetracker.ui.hodlecturedetails.hodUnderLectureDetailsActvity$1
+com/example/attendancetracker/ui/student_changepasswd/SlideshowViewModel.java
+ com.example.attendancetracker.ui.student_changepasswd.SlideshowViewModel
+com/example/attendancetracker/ui/teacherchangepassword/SlideshowViewModel.java
+ com.example.attendancetracker.ui.teacherchangepassword.SlideshowViewModel
+com/example/attendancetracker/ui/studentdetails/Student.java
+ com.example.attendancetracker.ui.studentdetails.Student
+com/example/attendancetracker/admin/TeacherAdmin/pgdspT.java
+ com.example.attendancetracker.admin.TeacherAdmin.pgdspT
+com/example/attendancetracker/ui/hodlogout/SlideshowViewModel.java
+ com.example.attendancetracker.ui.hodlogout.SlideshowViewModel
+com/example/attendancetracker/StartScreen_mainactivity/ForgotPasswordActivity.java
+ com.example.attendancetracker.StartScreen_mainactivity.ForgotPasswordActivity
+ com.example.attendancetracker.StartScreen_mainactivity.ForgotPasswordActivity$1
+com/example/attendancetracker/ParentHome/ParentProfileActivity.java
+ com.example.attendancetracker.ParentHome.ParentProfileActivity
+ com.example.attendancetracker.ParentHome.ParentProfileActivity$1
+ com.example.attendancetracker.ParentHome.ParentProfileActivity$2
+com/example/attendancetracker/ui/hoddetails/HOD.java
+ com.example.attendancetracker.ui.hoddetails.HOD
+com/example/attendancetracker/ui/base/BaseDrawerActivity.java
+ com.example.attendancetracker.ui.base.BaseDrawerActivity
+com/example/attendancetracker/admin/TeacherAdmin/juniorTeacher.java
+ com.example.attendancetracker.admin.TeacherAdmin.juniorTeacher
+com/example/attendancetracker/admin/StudentAdmin/AdminStudentDashboard.java
+ com.example.attendancetracker.admin.StudentAdmin.AdminStudentDashboard
+com/example/attendancetracker/ui/hodhome/HomeFragment.java
+ com.example.attendancetracker.ui.hodhome.HomeFragment
+com/example/attendancetracker/BuildConfig.java
+ com.example.attendancetracker.BuildConfig
+com/example/attendancetracker/ui/teacherlecturedetails/TeacherJuniorLectureDetailsActivity.java
+ com.example.attendancetracker.ui.teacherlecturedetails.TeacherJuniorLectureDetailsActivity
+ com.example.attendancetracker.ui.teacherlecturedetails.TeacherJuniorLectureDetailsActivity$1
+com/example/attendancetracker/ui/teacherlecturedetails/MyAdapterLecture.java
+ com.example.attendancetracker.ui.teacherlecturedetails.MyAdapterLecture
+ com.example.attendancetracker.ui.teacherlecturedetails.MyAdapterLecture$myViewHolder
+com/example/attendancetracker/HOD/underGraduateLectureHOD.java
+ com.example.attendancetracker.HOD.underGraduateLectureHOD
+ com.example.attendancetracker.HOD.underGraduateLectureHOD$1
+ com.example.attendancetracker.HOD.underGraduateLectureHOD$2
+com/example/attendancetracker/admin/TeacherAdmin/judspT.java
+ com.example.attendancetracker.admin.TeacherAdmin.judspT
+com/example/attendancetracker/ui/hodlecturedetails/hodPostLectureDetailsActivty.java
+ com.example.attendancetracker.ui.hodlecturedetails.hodPostLectureDetailsActivty
+ com.example.attendancetracker.ui.hodlecturedetails.hodPostLectureDetailsActivty$1
+com/example/attendancetracker/ui/studentdetails/StudentDetailsFragment.java
+ com.example.attendancetracker.ui.studentdetails.StudentDetailsFragment
+ com.example.attendancetracker.ui.studentdetails.StudentDetailsFragment$1
+ com.example.attendancetracker.ui.studentdetails.StudentDetailsFragment$2
+com/example/attendancetracker/admin/TeacherAdmin/AdminTeacherDashboard.java
+ com.example.attendancetracker.admin.TeacherAdmin.AdminTeacherDashboard

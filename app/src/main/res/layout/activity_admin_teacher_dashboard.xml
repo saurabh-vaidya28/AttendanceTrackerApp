@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/teacher_dash"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        tools:context=".admin.TeacherAdmin.AdminTeacherDashboard">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="32dp">
+            <TextView
+                android:text="Teacher Dashboard"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"/>
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_width="90dp"
+                android:layout_height="82dp"
+                android:src="@drawable/ic_action_logo"/>
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins"
+            android:rowCount="3"
+            android:columnCount="1"
+            android:layout_marginTop="10dp"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#4CAF50"
+                android:id="@+id/jcTCard">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:background="@drawable/ug_teacher"
+                    android:id="@+id/jcTLinear">
+<!--                    <ImageView-->
+<!--                        android:src="@drawable/bscit"-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="80dp"/>-->
+                    <TextView
+                        android:id="@+id/junior"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#ffffff"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:text="Junior College"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#4CAF50"
+                android:id="@+id/ugTCard">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:background="@drawable/jc_teacher"
+                    android:id="@+id/ugTLinear">
+<!--                    <ImageView-->
+<!--                        android:src="@drawable/bscit"-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="80dp"/>-->
+                    <TextView
+                        android:id="@+id/under"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000000"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:text="Under Graduation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginLeft="120dp">-->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#4CAF50"
+                android:id="@+id/pgTCard">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:background="@drawable/pg_teacher"
+                    android:id="@+id/pgTLinear">
+<!--                    <ImageView-->
+<!--                        android:src="@drawable/it"-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="80dp"-->
+<!--                        />-->
+                    <TextView
+                        android:id="@+id/post"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#FFFB34"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:text="Post Graduation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+<!--        </RelativeLayout>-->
+        </GridLayout>
+    </LinearLayout>
+
+</ScrollView>

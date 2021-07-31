@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\S Vaidya\\AndroidStudioProjects\\AttendanceTracker2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Program Files\\Android\\Android Studio\\gradle\\gradle-6.1.1\\caches\\transforms-2\\files-2.1\\c65aaafab0f6a131ca0c13a6ce996192\\jetified-zxing-android-embedded-3.2.0\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "10",
+                        "endOffsets": "150"
+                    }
+                }
+            ]
+        }
+    ]
+}

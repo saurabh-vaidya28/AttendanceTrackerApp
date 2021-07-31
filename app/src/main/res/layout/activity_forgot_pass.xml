@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartScreen_mainactivity.forgotPass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_gravity="end"
+            android:visibility="gone"
+            style="?android:attr/progressBarStyle"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Forgot Password"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="enter email-id that you have registered with"
+            android:layout_marginTop="15dp"
+
+
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="10dp"
+
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="email"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textSize="20sp"
+                android:id="@+id/edit_fp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_rounded"
+
+            android:id="@+id/b_fp"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

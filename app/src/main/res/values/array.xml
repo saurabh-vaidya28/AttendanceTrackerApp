@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="college">com.example.attendancetracker.Teacher.College</string-array>
+
+    <string-array name="College2">
+        <item>Please select</item>
+        <item>Junior</item>
+        <item>Under Graduate</item>
+        <item>Post Graduate</item>
+    </string-array>
+
+
+</resources>
